@@ -1,4 +1,4 @@
-
+@import "index";
 
 *{
     padding: 0;
@@ -52,21 +52,8 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
-section{
-    background: url(fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
 
-@media (max-width: 952px){
-    .enlace{
-        padding-left: 20px;
-    }
-    nav ul li a{
-        font-size: 16px;
-    }
-}
+
 
 @media (max-width: 858px){
     .checkbtn{
@@ -85,7 +72,7 @@ section{
     nav ul li{
         display: block;
         margin: 50px 0;
-        line-height: 30px;
+        line-height: 30px;  
     }
     nav ul li a{
         font-size: 20px;
